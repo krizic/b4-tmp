@@ -1,0 +1,47 @@
+@import "./override-bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background: lightgrey;
+}
+
+.image {
+  background-image: url("ccf4b4dc-3d70-4581-8748-48576ac299e0.jpg") !important;
+  height: 400px;
+}
+
+div[class*="col"] {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px blue solid;
+}
+
+.row.no-gutter {
+  margin: 0;
+}
+
+.cell {
+  background: white;
+  height: 8rem;
+  margin-top: 1rem;
+  margin-top: 1rem;
+}
+
+.context{
+    background: lightgray;
+    padding-bottom: 1rem;
+    padding-right: $grid-gutter-width;
+    padding-left: $grid-gutter-width;
+    background: blue;
+}
+
+.side{
+    padding-right: 0 !important;
+    background: green;
+}
+
+.row.no-gutter.outer{
+    margin-right: $grid-gutter-width / 2 * -1;
+}

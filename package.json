@@ -1,0 +1,19 @@
+{
+  "name": "b4-tmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bootstrap": "^5.0.9",
+    "bootstrap": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/sass": "^1.16.0",
+    "sass": "^1.32.8"
+  }
+}
