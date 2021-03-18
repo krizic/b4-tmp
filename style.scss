@@ -29,19 +29,24 @@ div[class*="col"] {
   margin-top: 1rem;
 }
 
-.context{
-    background: lightgray;
-    padding-bottom: 1rem;
-    padding-right: $grid-gutter-width;
-    padding-left: $grid-gutter-width;
-    background: blue;
+.context {
+  background: lightgray;
+  padding-bottom: 1rem;
+  background: blue;
 }
 
-.side{
-    padding-right: 0 !important;
-    background: green;
+.side {
+  padding-right: 0 !important;
+  background: green;
 }
 
-.row.no-gutter.outer{
-    margin-right: $grid-gutter-width / 2 * -1;
+.row.no-gutter.outer {
+  margin-right: $grid-gutter-width / 2 * -1;
+  margin-left: $grid-gutter-width / 2 * -1;
+}
+
+@media (min-width: 1200px) {
+  .container-xxl.container {
+    max-width: 1440px;
+  }
 }
